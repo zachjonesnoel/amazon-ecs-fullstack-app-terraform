@@ -7,6 +7,8 @@ var cors = require('cors');
 const AWS = require('aws-sdk')
 const port = 3001;
 
+require('newrelic');
+
 app.use(cors());
 
 var swagger = require('./swagger/swagger') 

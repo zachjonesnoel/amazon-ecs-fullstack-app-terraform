@@ -2,7 +2,7 @@
 # SPDX-License-Identifier: MIT-0
 
 config:
-  target: "" # Change me to the right env target
+  target: "alb-dev-ser-1738074114.us-east-1.elb.amazonaws.com/api/docs" # Change me to the right env target
   phases:
     - duration: 100
       arrivalRate: 20
